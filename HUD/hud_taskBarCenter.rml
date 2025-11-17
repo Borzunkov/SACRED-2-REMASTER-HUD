@@ -170,7 +170,7 @@
             }
 
             .godspell-prompt {
-                left: 230dp;
+                left: 220dp;
             }
 
             .buff-prompt {
