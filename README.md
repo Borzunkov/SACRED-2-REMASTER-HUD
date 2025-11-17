@@ -1,6 +1,6 @@
 # SACRED 2 REMASTER HUD
 ![Static Badge](https://img.shields.io/badge/hud-release-brightgreen)
-![Static Badge](https://img.shields.io/badge/build-0.1a-brightgreen?label=full%20hud%20package-not%20release&color=orange)
+![Static Badge](https://img.shields.io/badge/build-not%20release-brightgreen?label=full%20hud%20package&color=orange)
 
 HUD FOR RUSSIAN LOCALIZATION
 
