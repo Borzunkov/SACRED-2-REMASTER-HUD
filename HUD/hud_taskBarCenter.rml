@@ -1,0 +1,212 @@
+<rml>
+    <head>
+        <link type="text/rcss" href="../Global/globalElements.rcss"/>
+        <link type="text/template" href="../global/fullscreenMenu.rml"/>
+        <link type="text/rcss" href="../global/mainMenuHeroElements.rcss"/>
+        <link type="text/rcss" href="../HUD/hud_Spritesheet.rcss"/>
+        <link type="text/rcss" href="hud_taskBar.rcss"/>
+        <link type="text/rcss" href="../Ingame/inventoryCaElements.rcss"/>
+        <link type="text/rcss" href="../Ingame/spells.rcss"/>
+        <title>hud_taskBarCenter</title>
+        <style>
+            body {
+                z-index: -1;
+            }
+
+            .spacer {
+                position: relative;
+                width: 8dp;
+                height: 100%;
+            }
+
+            .action-slot {
+                position: relative;
+                display: flex;
+                width: 32dp;
+                height: 32dp;
+            }
+
+            .god-spell-slot {
+                width: 96dp;
+                height: 96dp;
+            }
+
+            .god-spell-slot button {
+                decorator: image(InventorySlot-center-big-ornament contain);
+            }
+
+            .god-spell-slot .icon {
+                top: 0.7dp;
+                left: 0.7dp;
+            }
+
+            button.god-spell-button:focus,
+            button.god-spell-button:focus-visible,
+            button.god-spell-button:hover {
+                decorator: image(InventorySlot-center-big-ornament contain);
+            }
+
+            button.god-spell-button:selected,
+            button.god-spell-button:active {
+                decorator: image(InventorySlot-center-big-ornament contain);
+            }
+
+            button.god-spell-button:disabled {
+                decorator: image(InventorySlot-center-big-ornament contain);
+            }
+
+            button.god-spell-button:disabled .icon {
+                filter: grayscale(0.5);
+            }
+
+            .god-spell-gauge {
+                width: 74dp;
+                height: 74dp;
+                left: 12dp;
+                top: 12dp;
+                position: absolute;
+                fill-image: HeroPortraitHp;
+                z-index: 1;
+            }
+
+            .taskbar {
+                position: absolute;
+                width: 500dp;
+                bottom: 34dp;
+                left: 50%;
+                height: 48dp;
+                transform: translateX(-50%);
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                /*background-color: red;*/
+            }
+
+
+            .taskbar.inventory {
+                left: 815dp;
+                decorator: image(InventorySlot-center-bigx3 contain);
+                height: 100dp;
+            }
+
+            .taskbar.inventory-scaled {
+                left: 500dp;
+                transform: scale(0.9);
+                decorator: image(InventorySlot-center-bigx3 contain);
+                height: 100dp;
+            }
+
+            .taskbar.combat-arts {
+                left: 465dp;
+                decorator: image(InventorySlot-center-bigx3 contain);
+                height: 100dp;
+            }
+
+            .taskbar.combat-arts-scaled {
+                left: 150dp;
+                transform: scale(0.9);
+                decorator: image(InventorySlot-center-bigx3 contain);
+                height: 100dp;
+            }
+
+            .stack-empty {
+                opacity: 0.5;
+            }
+
+            .icon {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .icon-buff {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                transform: scale(1.55);
+            }
+
+            .icon-item {
+                position: relative;
+                width: auto;
+                height: 100%;
+                object-fit: contain;
+                transform: scale(1.3);
+            }
+
+            .stack-count {
+                position: absolute;
+                display: block;
+                z-index: 1;
+                bottom: 7dp;
+                width: 41dp;
+                height: 16dp;
+                font-family: "Inria Sans";
+                color: #bfbfbf;
+                font-size: 0.75vw;
+                text-align: right;
+            }
+
+            .buff-active {
+                background-color: green;
+            }
+
+            .hudSlotBuff img {
+                left: 1dp;
+            }
+
+            .godspell-prompt,
+            .buff-prompt,
+            .potion-prompt {
+                display: block;
+                position: relative;
+                height: 20dp;
+                top: 43dp;
+                width: 40dp;
+                z-index: 200;
+            }
+
+            .godspell-prompt {
+                left: 190dp;
+            }
+
+            .buff-prompt {
+                left: 230dp;
+            }
+
+            .potion-prompt {
+                left: 30dp;
+            }
+
+            #slot-group {
+            }
+
+        </style>
+    </head>
+    <body class="no-pointer-events">
+    <!-- Center Slot Container -->
+
+    <div id="slot-group" class="taskbar">
+        <div class="use-godspell godspell-prompt" id="prompt-godspell"></div>
+        <div class="use-buff buff-prompt" id="prompt-buff"></div>
+        <div class="use-potion potion-prompt" id="prompt-potion"></div>
+        <!-- Potions -->
+        <button id="slot-l-2" class="hudSlotPotion action-slot"  style="margin-left: -120dp;"></button>
+        <button id="slot-l-1" class="hudSlotPotion action-slot"></button>
+        <button id="slot-l-0" class="hudSlotPotion action-slot"></button>
+        <p class="spacer"></p>
+        <div id="god-spell-container" class="action-slot god-spell-slot">
+            <progress id="god-spell-gauge" class="god-spell-gauge" direction="clockwise" start-edge="top" value="1.0"></progress>
+            <button id="god-spell" class="god-spell-button"></button>
+
+        </div>
+        <p class="spacer"></p>
+        <button id="slot-r-0" class="hudSlotBuff action-slot"></button>
+        <button id="slot-r-1" class="hudSlotBuff action-slot"></button>
+        <button id="slot-r-2" class="hudSlotBuff action-slot"></button>
+    </div>
+    </body>
+</rml>
