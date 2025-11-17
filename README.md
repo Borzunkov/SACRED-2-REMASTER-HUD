@@ -6,9 +6,9 @@ HUD FOR RUSSIAN LOCALIZATION
 
 ## TASK BAR CENTER
 
-[![SACRED 2 REMASTER HUD](https://ibb.co/KxJBg4mk/)]
+[![SACRED 2 REMASTER HUD](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/1.png/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
 
-[![SACRED 2 REMASTER HUD](https://ibb.co/235TzkKM/)]
+[![SACRED 2 REMASTER HUD](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
 
 ## INSTALLATION
 - IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:
