@@ -22,8 +22,8 @@
             .action-slot {
                 position: relative;
                 display: flex;
-                width: 32dp;
-                height: 32dp;
+                width: 26dp;
+                height: 26dp;
             }
 
             .god-spell-slot {
@@ -170,7 +170,7 @@
             }
 
             .godspell-prompt {
-                left: 190dp;
+                left: 230dp;
             }
 
             .buff-prompt {
@@ -194,9 +194,10 @@
         <div class="use-buff buff-prompt" id="prompt-buff"></div>
         <div class="use-potion potion-prompt" id="prompt-potion"></div>
         <!-- Potions -->
-        <button id="slot-l-2" class="hudSlotPotion action-slot"  style="margin-left: -120dp;"></button>
+        <button id="slot-l-3" class="hudSlotPotion action-slot"  style="margin-left: -120dp;"></button>
+        <button id="slot-l-2" class="hudSlotPotion action-slot"></button>
         <button id="slot-l-1" class="hudSlotPotion action-slot"></button>
-        <button id="slot-l-0" class="hudSlotPotion action-slot"></button>
+		<button id="slot-l-0" class="hudSlotPotion action-slot"></button>
         <p class="spacer"></p>
         <div id="god-spell-container" class="action-slot god-spell-slot">
             <progress id="god-spell-gauge" class="god-spell-gauge" direction="clockwise" start-edge="top" value="1.0"></progress>
@@ -207,6 +208,7 @@
         <button id="slot-r-0" class="hudSlotBuff action-slot"></button>
         <button id="slot-r-1" class="hudSlotBuff action-slot"></button>
         <button id="slot-r-2" class="hudSlotBuff action-slot"></button>
+		<button id="slot-r-3" class="hudSlotBuff action-slot"></button>
     </div>
     </body>
 </rml>
