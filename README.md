@@ -1,4 +1,6 @@
 # SACRED 2 REMASTER HUD
+![Static Badge](https://img.shields.io/badge/hud-release-brightgreen)
+![Static Badge](https://img.shields.io/badge/build-0.1a-brightgreen?label=full%20hud%20package-not%20release&color=orange)
 
 HUD FOR RUSSIAN LOCALIZATION
 
@@ -10,8 +12,8 @@ HUD FOR RUSSIAN LOCALIZATION
 
 [![SACRED 2 REMASTER HUD](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
 
-- https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
-- https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
+https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
+https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
 
 ## INSTALLATION
 - IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:
