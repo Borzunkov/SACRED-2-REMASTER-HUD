@@ -19,9 +19,9 @@
 
 ## <p align="center">TASK BAR ACTION SLOTS</p>
 
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/1.png" /></p>
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/2.png" /></p>
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/3.png" /></p>
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/1.png" />
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/2.png" />
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/3.png" />
 
 <p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip</p>
 <p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE</p>
