@@ -1,5 +1,4 @@
 # <p align="center">SACRED 2 REMASTER HUD</p>
-<center>
 ![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
 ![Static Badge](https://img.shields.io/badge/build-unreleased-red?label=package)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
