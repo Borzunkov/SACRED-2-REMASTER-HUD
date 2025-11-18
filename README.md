@@ -7,7 +7,7 @@
 
 <p align="center"><b>HUD FOR RUSSIAN LOCALIZATION</b></p>
 
-[![SACRED 2 REMASTER](https://images.steamusercontent.com/ugc/16257776941405511610/9A36016DDFA15A24083F2A4243FE2357A2D4BA8B/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
+[![SACRED 2 REMASTER](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/S2R.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
 
 ## <p align="center">TASK BAR CENTER</p>
 
@@ -19,11 +19,12 @@
 
 ## <p align="center">TASK BAR ACTION SLOTS</p>
 
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/1.png" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/2.png" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/3.png" /></p>
 
-<p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip</p>
-<p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE</p>
+<p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip</p>
+<p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE</p>
 
 ## <p align="center">INSTALLATION</p>
 <p align="center">IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:</p>
