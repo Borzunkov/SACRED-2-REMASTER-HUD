@@ -1,11 +1,11 @@
 # <p align="center">SACRED 2 REMASTER HUD</p>
 ![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
-![Static Badge](https://img.shields.io/badge/build-not%20released-brightgreen?label=hud%20package&color=orange)
+![Static Badge](https://img.shields.io/badge/build-unreleased-red?label=hud%20package)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
 ![Static Badge](https://img.shields.io/badge/build-unsupport-red?label=gamepad)
 
 
-HUD FOR RUSSIAN LOCALIZATION
+<p align="center">HUD FOR RUSSIAN LOCALIZATION
 
 [![SACRED 2 REMASTER](https://images.steamusercontent.com/ugc/16257776941405511610/9A36016DDFA15A24083F2A4243FE2357A2D4BA8B/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
 
@@ -22,22 +22,22 @@ https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CE
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
 
-https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
-https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
+<p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
+<p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
 
 ## <p align="center">INSTALLATION</p>
-- IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:
+<p align="center">- IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:
 
-.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui
+<p align="center">.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui
 
-- IF DOWNLOADED "HD_EXE", PATH FOR UNPACK:
+<p align="center">- IF DOWNLOADED "HD_EXE", PATH FOR UNPACK:
 
-.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui\HUD
+<p align="center">.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui\HUD
 
 ## <p align="center">COMMUNITY</p>
-https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809
+<p align="center">https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809
 
 ## <p align="center">INFORMATION</p>
-- THIS HUD ADAPTED FOR RUSSIAN LOCALIZATION!
+<p align="center">- THIS HUD ADAPTED FOR RUSSIAN LOCALIZATION!
 
-ALL QUESTIONS AND ANSWERS IN STEAM COMMUNITY!
+<p align="center">ALL QUESTIONS AND ANSWERS IN STEAM COMMUNITY!
