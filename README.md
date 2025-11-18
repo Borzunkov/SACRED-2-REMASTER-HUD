@@ -1,5 +1,5 @@
 # <p align="center">SACRED 2 REMASTER HUD</p>
-![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
+![Static Badge](https://img.shields.io/badge/build-alfa-red?label=hud)
 ![Static Badge](https://img.shields.io/badge/build-unreleased-red?label=package)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
 ![Static Badge](https://img.shields.io/badge/build-unsupport-red?label=gamepad)
@@ -26,11 +26,11 @@
 <p align="center">https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE</p>
 
 ## <p align="center">INSTALLATION</p>
-<p align="center">IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:</p>
+<p align="center"><b>IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:</b></p>
 
 <p align="center">.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui</p>
 
-<p align="center">IF DOWNLOADED "HUD_EXE", PATH FOR UNPACK:</p>
+<p align="center"><b>IF DOWNLOADED "HUD_EXE", PATH FOR UNPACK:</b></p>
 
 <p align="center">.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui\HUD</p>
 
@@ -38,8 +38,8 @@
 <p align="center">https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809</p>
 
 ## <p align="center">INFORMATION</p>
-<p align="center">THIS HUD ADAPTED FOR RUSSIAN LOCALIZATION!</p>
+<p align="center"><b>THIS HUD ADAPTED FOR RUSSIAN LOCALIZATION!</b></p>
 
 <p align="center"><b>SOME SLOTS NOT WORK YET!</b></a>
 
-<p align="center">ALL QUESTIONS AND ANSWERS IN STEAM COMMUNITY!</p>
+<p align="center"><b>ALL QUESTIONS AND ANSWERS IN STEAM COMMUNITY!</b></p>
