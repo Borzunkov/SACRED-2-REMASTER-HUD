@@ -1,5 +1,5 @@
 # <p align="center">SACRED 2 REMASTER HUD</p>
-![Static Badge](https://img.shields.io/badge/hud-alfa&color=orange)
+![Static Badge](https://img.shields.io/badge/build-alfa-orange?label=hud)
 ![Static Badge](https://img.shields.io/badge/build-unreleased-red?label=package)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
 ![Static Badge](https://img.shields.io/badge/build-unsupport-red?label=gamepad)
