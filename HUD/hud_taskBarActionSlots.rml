@@ -1,0 +1,276 @@
+<rml>
+    <head>
+        <link type="text/template" href="../global/fullscreenMenu.rml"/>
+        <link type="text/rcss" href="../global/mainMenuHeroElements.rcss"/>
+        <link type="text/rcss" href="../HUD/hud_Spritesheet.rcss"/>
+        <link type="text/rcss" href="hud_taskBar.rcss"/>
+        <link type="text/rcss" href="../Ingame/inventoryCaElements.rcss"/>
+        <link type="text/rcss" href="../Ingame/spells.rcss"/>
+        <title>hud_taskBarActionSlots</title>
+        <style>
+            body {
+                z-index: -1;
+            }
+
+            .action-slot {
+                position: relative;
+                display: flex;
+                width: 32dp;
+                height: 32dp;
+            }
+
+
+            .action-slot-row {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+
+            .action-slot-container {
+                display: block;
+                width: 128dp;
+                height: 52dp;
+                margin-bottom: 70dp;
+            }
+
+            .action-slot-container-left {
+                position: absolute;
+                bottom: 0dp;
+                left: 200dp;
+            }
+
+            .action-slot-container-center-top {
+                bottom: 48dp;
+                gap: 8dp;
+            }
+
+            .action-slot-container-right {
+                position: absolute;
+                bottom: 0dp;
+                right: 175dp;
+            }
+
+            /* Inventory */
+            .inventory-right {
+                position: absolute;
+                bottom: -46dp;
+                right: 28dp;
+                width: 130dp;
+                height: 130dp;
+                decorator: image(InventoryBackgroundR2);
+            }
+
+            .inventory-right .action-slot-container {
+                position: absolute;
+                left: 12dp;
+                top: 12dp;
+            }
+
+            .inventory-left {
+                position: absolute;
+                bottom: -47dp;
+                left: 380dp;
+                width: 130dp;
+                height: 130dp;
+                decorator: image(InventoryBackgroundL2);
+            }
+
+            .inventory-left .action-slot-container {
+                position: absolute;
+                left: 14dp;
+                top: 14dp;
+            }
+
+            /* Attributes */
+            .attributes-left {
+                position: absolute;
+                bottom: -59dp;
+                left: 400dp;
+                width: 130dp;
+                height: 130dp;
+                decorator: image(InventoryBackgroundL2);
+            }
+
+            .attributes-left .action-slot-container {
+                position: absolute;
+                left: 14dp;
+                top: 14dp;
+            }
+
+            .attributes-right {
+                position: absolute;
+                bottom: -47dp;
+                right: 375dp;
+                width: 130dp;
+                height: 130dp;
+                decorator: image(InventoryBackgroundR2);
+            }
+
+            .attributes-right .action-slot-container {
+                position: absolute;
+                left: 12dp;
+                top: 12dp;
+            }
+
+            /* Combat Arts / Spells */
+            .combat-arts-left {
+                position: absolute;
+                bottom: -56dp;
+                left: 36dp;
+                width: 130dp;
+                height: 130dp;
+                decorator: image(InventoryBackgroundL2);
+                z-index: 10;
+            }
+
+            .combat-arts-left .action-slot-container {
+                position: absolute;
+                left: 14dp;
+                top: 14dp;
+            }
+
+            .combat-arts-right {
+                position: absolute;
+                bottom: -47dp;
+                right: 380dp;
+                width: 130dp;
+                height: 130dp;
+                decorator: image(InventoryBackgroundR2);
+                z-index: 10;
+            }
+
+            .combat-arts-right .action-slot-container {
+                position: absolute;
+                left: 12dp;
+                top: 12dp;
+            }
+
+            .icon {
+                position: relative;
+                width: auto;
+                height: 100%;
+                object-fit: contain;
+                transform: scale(1.55);
+            }
+
+            .icon-item {
+                position: relative;
+                width: auto;
+                height: 100%;
+                object-fit: contain;
+                transform: scale(2);
+            }
+
+            button.active-weapon-slot {
+                decorator: image(item-slot-active contain);
+            }
+
+            button.active-weapon-slot:focus,
+            button.active-weapon-slot:focus-visible,
+            button.active-weapon-slot:hover {
+                decorator: image(item-slot-active contain);
+            }
+
+            button.active-weapon-slot:selected,
+            button.active-weapon-slot:active {
+                decorator: image(item-slot-active contain);
+            }
+
+            button.active-spell-slot {
+                decorator: image(CA-slot-active contain);
+            }
+
+            button.active-spell-slot:focus,
+            button.active-spell-slot:focus-visible,
+            button.active-spell-slot:hover {
+                decorator: image(CA-slot-active contain);
+            }
+
+            button.active-spell-slot:selected,
+            button.active-spell-slot:active {
+                decorator: image(CA-slot-active contain);
+            }
+
+            .cooldown-gauge {
+                position: absolute;
+                width: 32dp;
+                height: 32dp;
+                z-index: 1;
+            }
+
+            .cooldown {
+            }
+
+            .cooldown .cooldown-gauge {
+                filter: grayscale(0.5);
+            }
+
+            #switch-prompt {
+                z-index: 20;
+                position: relative;
+                top: -130%;
+                left: -10%;
+                height: 30dp;
+                width: auto;
+                display: block;
+            }
+
+            #use-prompt {
+                z-index: 21;
+                height: 30dp;
+                width: auto;
+                display: block;
+                position: relative;
+            }
+
+            .use-prompt-right {
+                top: -50dp;
+                left: -75dp;
+            }
+
+            .use-prompt-left {
+                top: -50dp;
+                left: 50dp;
+            }
+
+            .icon-combo {
+                transform: scale(1.6);
+            }
+
+            .icon-combatart {
+                transform: translateX(1dp) scale(1.53);
+            }
+
+            .circle {
+                position: absolute;
+                left: 0dp;
+                top: 0dp;
+                width: 12dp;
+                height: 12dp;
+                background-color: rgba(255, 0, 0, 0);
+                opacity: 1;
+                mask-image: image("Combatarts-circle-mask" contain);
+                pointer-events: none;
+            }
+
+        </style>
+    </head>
+    <body class="no-pointer-events">
+    <div id="slot-group" class="action-slot-container ">
+        <div class="action-slot-container">
+            <div id="action-slot-row-top" class="action-slot-row">
+                <button id="slot-0" raw_id="0" class="hudSlot action-slot"></button>
+                <button id="slot-1" raw_id="1" class="hudSlot action-slot"></button>
+            </div>
+            <div id="action-slot-row-bottom" class="action-slot-row">
+                <button id="slot-2" raw_id="2" class="hudSlot action-slot"></button>
+                <button id="slot-3" raw_id="3" class="hudSlot action-slot"></button>
+            </div>
+            <div class="" id="switch-prompt"></div>
+        </div>
+        <div class="use-weapon" id="use-prompt"></div>
+    </div>
+    </body>
+</rml>
