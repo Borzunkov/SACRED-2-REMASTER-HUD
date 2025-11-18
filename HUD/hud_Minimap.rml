@@ -14,8 +14,8 @@
                 width: 170dp;
                 height: 195dp;
                 position: absolute;
-                bottom: 20dp;
-                right: 15dp;
+                bottom: 520dp;
+                right: 5dp;
                 display: block;
             }
 
