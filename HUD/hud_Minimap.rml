@@ -1,0 +1,159 @@
+<rml>
+    <head>
+        <link type="text/template" href="../global/fullscreenMenu.rml"/>
+        <link type="text/rcss" href="../global/mainMenuHeroElements.rcss"/>
+        <link type="text/rcss" href="../HUD/hud_Spritesheet.rcss"/>
+        <link type="text/rcss" href="../Ingame/inventoryCaElements.rcss"/>
+        <title>hud_Minimap</title>
+        <style>
+            body {
+                z-index: -1;
+            }
+
+            .minimap-position {
+                width: 170dp;
+                height: 195dp;
+                position: absolute;
+                bottom: 20dp;
+                right: 15dp;
+                display: block;
+            }
+
+            .minimap-bg {
+                z-index: 0;
+                width: 165dp;
+                height: 180dp;
+                left: 0dp;
+                top: 10dp;
+                position: absolute;
+                decorator: image(HUD-Map-background contain);
+                pointer-events: none;
+            }
+
+            .minimap {
+                z-index: 1;
+                width: 150dp;
+                height: 150dp;
+                left: 7.5dp;
+                top: 7.5dp;
+                position: absolute;
+                decorator: map("minimap");
+                mask-image: image(Blacksmith-circle-mask contain);
+                pointer-events: none;
+            }
+
+            .minimap-container {
+                /*decorator: image(MapFront contain);*/
+                z-index: 2;
+                width: 150dp;
+                height: 150dp;
+                left: 0dp;
+                top: 0dp;
+                position: absolute;
+                pointer-events: none;
+            }
+
+            #compass {
+                decorator: image(MapFront contain);
+                z-index: 2;
+                width: 165dp;
+                height: 165dp;
+                left: 0dp;
+                top: 0dp;
+                position: absolute;
+                pointer-events: none;
+            }
+
+            .placeholder-text {
+                font-family: OptimusPrinceps;
+                font-size: 13dp;
+                text-align: center;
+                left: 23.25dp;
+                top: 67.5dp;
+                position: absolute;
+                color: gray;
+                z-index: 3;
+            }
+
+            .buttons
+            {
+                z-index: 0;
+                width: 110dp;
+                height: 30dp;
+                left: 28dp;
+                bottom: 15dp;
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                pointer-events: none;
+            }
+
+            .quick-access-button
+            {
+                decorator: image(HUD-Map-icon-background contain);
+                width: 37dp;
+                height: 70dp;
+                display: flex;
+                margin-top: -17dp;
+                flex-direction: column;
+            }
+
+            .quick-access-button:hover,
+            .quick-access-button:focus,
+            .quick-access-button:focus-visible
+            {
+                decorator: image(HUD-Map-icon-hover-combined contain);
+            }
+
+            .middle-button
+            {
+                transform: translateY(10dp);
+            }
+
+            .button-icon
+            {
+                position: relative;
+                width: 100%;
+                height: 40dp;
+                display: block;
+                pointer-events: auto;
+                margin-top: 15dp;
+            }
+
+            .button-prompt
+            {
+                width:100%;
+                height: 10dp;
+                display: block;
+                transform: scale(2.5);
+                position: relative;
+                bottom: 1dp;
+            }
+
+
+        </style>
+    </head>
+    <body class="minimap-position">
+    <div class="minimap-bg"></div>
+    <div class="minimap"></div>
+    <div class="minimap-container">
+        <div id="compass"></div>
+    </div>
+
+    <div class="buttons" id="quick-access-buttons">
+        <div class="quick-access-button"  onclick="OnMinimapInventoryButton">
+            <img class="button-icon" sprite="HUD-Map-icon-character"/>
+            <div id="quick-access-inventory" class="button-prompt"/>
+        </div>
+        <div class="quick-access-button middle-button" onclick="OnMinimapMapButton">
+            <img class="button-icon" sprite="HUD-Map-icon-map" />
+            <div id="quick-access-map" class="button-prompt"/>
+        </div>
+        <div class="quick-access-button" onclick="OnMinimapCombatArtsButton">
+            <img class="button-icon" sprite="HUD-Map-icon-star" />
+            <div id="quick-access-combatArts" class="button-prompt"/>
+        </div>
+    </div>
+    </body>
+</rml>
