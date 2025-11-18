@@ -2,7 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
 ![Static Badge](https://img.shields.io/badge/build-not%20released-brightgreen?label=hud%20package&color=orange)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
-![Static Badge](https://img.shields.io/badge/build-unsupport-brightred?label=gamepad&color=brightgrey)
+![Static Badge](https://img.shields.io/badge/build-unsupport-red?label=gamepad)
 
 
 HUD FOR RUSSIAN LOCALIZATION
