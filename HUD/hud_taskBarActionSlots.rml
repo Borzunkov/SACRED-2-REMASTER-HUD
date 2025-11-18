@@ -30,7 +30,7 @@
 
             .action-slot-container {
                 display: block;
-                width: 128dp;
+                width: 196dp;
                 height: 52dp;
                 margin-bottom: 70dp;
             }
@@ -65,7 +65,7 @@
             .inventory-right .action-slot-container {
                 position: absolute;
                 left: 3dp;
-                top: 8dp;
+                top: 18dp;
             }
 
             .inventory-left {
