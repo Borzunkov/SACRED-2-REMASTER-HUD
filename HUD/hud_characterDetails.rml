@@ -1,0 +1,216 @@
+<rml>
+    <head>
+        <link type="text/template" href="../global/fullscreenMenu.rml"/>
+        <link type="text/rcss" href="../global/mainMenuHeroElements.rcss"/>
+        <link type="text/rcss" href="../HUD/hud_Spritesheet.rcss"/>
+        <title>hud_characterDetails</title>
+        <style>
+          body {
+          z-index: -1;
+          }
+
+          .player-portrait-position
+          {
+          width: 150dp;
+          height: 195dp;
+          position: absolute;
+          bottom: 15dp;
+          left: 24dp;
+          display: block;
+          }
+
+          #character-icon
+          {
+          width: 78.75dp;
+          height: 90dp;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 3;
+          }
+
+          .gaugeXP
+          {
+          width: 100%;
+          height: 100%;
+          left: 0dp;
+          top: 0dp;
+          position: relative;
+          fill-image: HeroPortraitExp;
+          z-index: 1;
+          }
+
+          .gaugeHP
+          {
+          width: 100%;
+          height: 100%;
+          left: 0dp;
+          top: 0dp;
+          position: absolute;
+          fill-image: HeroPortraitHp;
+          z-index: 1;
+          }
+
+          .gaugeShield
+          {
+          width: 100%;
+          height: 100%;
+          left: 0dp;
+          top: 0dp;
+          position: absolute;
+          fill-image: HeroPortraitHp;
+          transform: scale(1.1);
+          z-index: 50;
+          image-color: #1a216e;
+          }
+
+          .gauges-container
+          {
+          width: 150dp;
+          height: 150dp;
+          left: 0dp;
+          top: 0dp;
+          position: absolute;
+          display: flex;
+          }
+
+          .bottom-container
+          {
+          width: 150dp;
+          height: 150dp;
+          left: 0dp;
+          top: 135dp;
+          position: absolute;
+          display: flex;
+          }
+
+
+          .level
+          {
+          width: 35dp;
+          height: 20dp;
+          font-family: OptimusPrinceps;
+          text-align: center;
+          font-size: 2.25vh;
+          position: absolute;
+          transform: translateX(-50%);
+          top: 80%;
+          left: 50%;
+          z-index: 3;
+          color: title;
+          }
+
+          .foreground-slot
+          {
+          width: 30dp;
+          height: 30dp;
+          decorator: image(HeroPortraitGem-active contain);
+          z-index: 2;
+          }
+          .background-slot
+          {
+          width: 30dp;
+          height: 30dp;
+          decorator: image(HeroPortraitGem-unactive contain);
+          z-index: 1;
+          }
+          .foreground-slot1
+          {
+          position: absolute;
+          left: 22.5dp;
+          }
+          .foreground-slot2
+          {
+          position: absolute;
+          left: 60dp;
+          top: 11.25dp;
+          }
+
+          .foreground-slot3
+          {
+              position: absolute;
+              left: 97.5dp;
+              pointer-events: none;
+          }
+
+          .background-slot1
+          {
+          position: absolute;
+          left: 30dp;
+          top: 7.5dp;
+              pointer-events: none;
+          }
+          .background-slot2
+          {
+          position: absolute;
+          left: 67.5dp;
+          top: 18.75dp;
+          }
+          .background-slot3
+          {
+          position: absolute;
+          left: 105dp;
+          top: 7.5dp;
+          }
+          .transparent
+          {
+              opacity: 0.0;
+
+          }
+          .equip-item-icon
+          {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          display: block;
+          pointer-events: none;
+          }
+          .lowhealth_warning
+          {
+          display: none;
+          width: 128dp;
+          height: 128dp;
+          transform: scale(1, 1);
+          transform-origin: center;
+          decorator: image("Textures/low_health_warning.dds");
+          z-index: -1;
+          }
+          .lowhealth_warning_scale
+          {
+          display: flex;
+          position: absolute;
+          width: 128dp;
+          height: 128dp;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transform-origin: center;
+          z-index: -1;
+          }
+
+
+        </style>
+    </head>
+    <body class="player-portrait-position hero-portrait-back">
+    <div class ="gauges-container">
+        <progress id="xp-gauge" class="player-portrait-position gaugeXP" direction="clockwise" start-edge="bottom" value="0.3"/>
+        <progress id="health-gauge" class="player-portrait-position gaugeHP" direction="clockwise" start-edge="bottom" value="0.3"/>
+        <progress id="shield-gauge" class="player-portrait-position gaugeShield" value="1.0" direction="clockwise" start-edge="bottom" />
+      <img id="character-icon">
+        <div class="lowhealth_warning_scale" id="Low-Health-Warning-Scale">
+          <div class="lowhealth_warning" id="Low-Health-Warning"/>
+        </div>
+      </img>
+        <div class="level" id="player-level">10</div>
+    </div>
+    <div class ="bottom-container">
+        <div class ="foreground-slot foreground-slot1" id="Equip-Slot-Orb1" onmouseover="" onmouseout=""></div>
+        <div class ="foreground-slot foreground-slot2" id="Equip-Slot-Orb2" onmouseover="" onmouseout=""></div>
+        <div class ="foreground-slot foreground-slot3" id="Equip-Slot-Orb3" onmouseover="" onmouseout=""></div>
+        <div class ="background-slot transparent background-slot1" id="Equip-Slot-Orb4" onmouseover="" onmouseout=""></div>
+        <div class ="background-slot transparent background-slot2" id="Equip-Slot-Orb5" onmouseover="" onmouseout=""></div>
+        <div class ="background-slot transparent background-slot3" id="Equip-Slot-Orb6" onmouseover="OnHoverOrb_OFF" onmouseout="OnHoverOrbEnd_OFF"></div>
+    </div>
+    </body>
+</rml>
