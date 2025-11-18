@@ -1,9 +1,9 @@
 # <p align="center">SACRED 2 REMASTER HUD</p>
-![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
+<center>![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
 ![Static Badge](https://img.shields.io/badge/build-unreleased-red?label=package)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
 ![Static Badge](https://img.shields.io/badge/build-unsupport-red?label=gamepad)
-
+</center>
 
 <p align="center"><b>HUD FOR RUSSIAN LOCALIZATION</b></p>
 
