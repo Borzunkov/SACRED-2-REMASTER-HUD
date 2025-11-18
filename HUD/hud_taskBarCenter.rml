@@ -60,10 +60,10 @@
             }
 
             .god-spell-gauge {
-                width: 74dp;
-                height: 74dp;
+                width: 76dp;
+                height: 76dp;
                 left: 12dp;
-                top: 12dp;
+                top: 10dp;
                 position: absolute;
                 fill-image: HeroPortraitHp;
                 z-index: 1;
@@ -164,7 +164,7 @@
                 display: block;
                 position: relative;
                 height: 20dp;
-                top: 43dp;
+                top: 46dp;
                 width: 40dp;
                 z-index: 200;
             }
