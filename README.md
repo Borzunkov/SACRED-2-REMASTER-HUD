@@ -1,6 +1,8 @@
 # SACRED 2 REMASTER HUD
-![Static Badge](https://img.shields.io/badge/hud-release-brightgreen)
+![Static Badge](https://img.shields.io/badge/hud-beta%20release-brightgreen)
 ![Static Badge](https://img.shields.io/badge/build-not%20released-brightgreen?label=full%20hud%20package&color=orange)
+![Static Badge](https://img.shields.io/badge/build-pc-brightgreen?label=support&color=brightgreen)
+
 
 HUD FOR RUSSIAN LOCALIZATION
 
@@ -8,9 +10,16 @@ HUD FOR RUSSIAN LOCALIZATION
 
 ## TASK BAR CENTER
 
-[![SACRED 2 REMASTER HUD](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/1.png/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/1.png" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png" /></p>
 
-[![SACRED 2 REMASTER HUD](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png/)](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
+https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
+https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
+
+## TASK BAR ACTION SLOTS
+
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
 
 https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
 https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
