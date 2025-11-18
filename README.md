@@ -1,5 +1,5 @@
 # <p align="center">SACRED 2 REMASTER HUD</p>
-![Static Badge](https://img.shields.io/badge/hud-beta-brightgreen)
+![Static Badge](https://img.shields.io/badge/build-hud-brightgreen?label=alfa&color=orange)
 ![Static Badge](https://img.shields.io/badge/build-unreleased-red?label=package)
 ![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc)
 ![Static Badge](https://img.shields.io/badge/build-unsupport-red?label=gamepad)
@@ -31,7 +31,7 @@
 
 <p align="center">.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui</p>
 
-<p align="center">IF DOWNLOADED "HD_EXE", PATH FOR UNPACK:</p>
+<p align="center">IF DOWNLOADED "HUD_EXE", PATH FOR UNPACK:</p>
 
 <p align="center">.\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui\HUD</p>
 
