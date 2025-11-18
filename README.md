@@ -11,6 +11,8 @@
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/1.png" /></p>
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png" /></p>
 
+<p align="center"><b>SOME SLOTS NOT WORK YET!</b></a>
+
 [DOWNLOAD TASK BAR CENTER HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip)
 
 [DOWNLOAD TASK BAR CENTER HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE)
@@ -21,6 +23,8 @@
 <img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/2.png" />
 <img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/3.png" />
 
+<p align="center"><b>SOME SLOTS NOT WORK YET!</b></a>
+
 [DOWNLOAD TASK BAR AVTION SLOTS HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip)
 
 [DOWNLOAD TASK BAR AVTION SLOTS HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE)
@@ -29,7 +33,7 @@
 
 <img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/CDAM/1.png" />
 
-[DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.ZIP](hhttps://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.zip)
+[DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.zip)
 
 [DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.EXE)
 
