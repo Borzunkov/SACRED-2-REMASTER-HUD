@@ -12,6 +12,7 @@
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png" /></p>
 
 [DOWNLOAD TASK BAR CENTER HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip)
+
 [DOWNLOAD TASK BAR CENTER HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE)
 
 ## <p align="center">TASK BAR ACTION SLOTS</p>
@@ -20,8 +21,9 @@
 <img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/2.png" />
 <img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/3.png" />
 
-[DOWNLOAD TASK BAR AVTION SLOTS HUD.ZIP]https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip</p>
-[DOWNLOAD TASK BAR AVTION SLOTS HUD.EXE]https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE</p>
+[DOWNLOAD TASK BAR AVTION SLOTS HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip)
+
+[DOWNLOAD TASK BAR AVTION SLOTS HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE)
 
 ## INSTALLATION
 <b>IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:</b>
