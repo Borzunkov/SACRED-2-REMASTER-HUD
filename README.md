@@ -46,6 +46,10 @@
 
 .\Steam\steamapps\common\Sacred 2 Remaster\Remaster\ui\HUD
 
+## REPOSITORIES
+<b>OTHER MY REPOSITORIES:</b></p>
+- [SACRED-2-REMASTER](https://github.com/Borzunkov/SACRED-2-REMASTER)
+
 ## COMMUNITY
 [STEAM COMMUNITY](https://steamcommunity.com/sharedfiles/filedetails/?id=3604275809)
 
