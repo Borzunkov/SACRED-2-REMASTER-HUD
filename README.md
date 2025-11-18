@@ -41,6 +41,6 @@
 ## <p align="center">INFORMATION</p>
 <p align="center">THIS HUD ADAPTED FOR RUSSIAN LOCALIZATION!</p>
 
-<p align="center"><style color="red"><b>SOME SLOTS NOT WORK YET!</b></color></a>
+<p align="center"><spane color="red"><b>SOME SLOTS NOT WORK YET!</b></spane></a>
 
 <p align="center">ALL QUESTIONS AND ANSWERS IN STEAM COMMUNITY!</p>
