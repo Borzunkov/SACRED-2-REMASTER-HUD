@@ -1,7 +1,8 @@
 # SACRED 2 REMASTER HUD
-![Static Badge](https://img.shields.io/badge/hud-beta%20release-brightgreen)
+![Static Badge](https://img.shields.io/badge/hud%20beta-brightgreen)
 ![Static Badge](https://img.shields.io/badge/build-not%20released-brightgreen?label=full%20hud%20package&color=orange)
-![Static Badge](https://img.shields.io/badge/build-pc-brightgreen?label=support&color=brightgreen)
+![Static Badge](https://img.shields.io/badge/build-support-brightgreen?label=pc&color=brightgreen)
+![Static Badge](https://img.shields.io/badge/build-unsupport-brightred?label=gamepad&color=brightgrey)
 
 
 HUD FOR RUSSIAN LOCALIZATION
@@ -16,7 +17,7 @@ HUD FOR RUSSIAN LOCALIZATION
 https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.zip
 https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-CENTER/HUD.EXE
 
-## TASK BAR ACTION SLOTS
+## <p align="center">TASK BAR ACTION SLOTS</p>
 
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
 <p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/" /></p>
