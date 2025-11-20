@@ -195,8 +195,8 @@
 
             .cooldown-gauge {
                 position: absolute;
-                width: 32dp;
-                height: 32dp;
+                width: 22dp;
+                height: 22dp;
                 z-index: 1;
             }
 
