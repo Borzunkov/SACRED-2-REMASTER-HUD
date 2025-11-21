@@ -25,9 +25,9 @@
 
 <p align="center"><b>SOME SLOTS NOT WORK YET!</b></a>
 
-[DOWNLOAD TASK BAR AVTION SLOTS HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip)
+[DOWNLOAD TASK BAR ACTION SLOTS HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.zip)
 
-[DOWNLOAD TASK BAR AVTION SLOTS HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE)
+[DOWNLOAD TASK BAR ACTION SLOTS HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE)
 
 ## <p align="center">CHARACTER DETAILS AND MINIMAP</p>
 
