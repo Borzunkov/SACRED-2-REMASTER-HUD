@@ -109,12 +109,12 @@
                 left:5%;
                 height: 90%;
                 position: relative;
-                transform: translateY(-74dp);
+                transform: translateY(-75dp);
                 font-family: Inria Sans;
                 text-align: center;
                 line-height: 2vh;
                 font-size: 2.0vh;
-                color: black;
+                color: white;
                 justify-content: space-between;
                 z-index: 100;
             }
