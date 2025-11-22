@@ -31,7 +31,7 @@
 
 ## <p align="center">ENTITY HEALTH</p>
 
-<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/EH/1.png" />
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/EH/1.png" /></p>
 
 [DOWNLOAD ENTITY HEALTH HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/ENTITY-HEALTH/HUD.zip)
 
