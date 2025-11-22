@@ -1,0 +1,213 @@
+<rml>
+    <head>
+        <link type="text/template" href="../global/fullscreenMenu.rml"/>
+        <link type="text/rcss" href="../HUD/hud_Spritesheet.rcss"/>
+        <link type="text/rcss" href="../Shared/damageArmorMix.rcss"/>
+        <title>hud_entityHealth</title>
+        <style>
+            .enemy-health-container
+            {
+                width: 335.25dp;
+                height: 82.5dp;
+                position: absolute;
+                top: 25dp;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .enemy-health-container-boss
+            {
+                width: 335.25dp;
+                height: 82.5dp;
+                position: absolute;
+                top: 525dp;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .damage-icon
+            {
+                width: 36.75dp;
+                height: 25.5dp;
+                decorator: image(EnemyHpAttackIcon contain);
+                display: flex;
+            }
+
+            .armor-icon
+            {
+                width: 36.75dp;
+                height: 21dp;
+                decorator: image(EnemyHpDeffenseIcon contain);
+                display: flex;
+            }
+
+            .progress-bar-container
+            {
+                height: 36dp;
+                width:335.25dp;
+            }
+
+            #progress-horizontal-entity-health,
+            {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                decorator: image(EnemyHpBack contain);
+                fill-image: EnemyHp;
+            }
+
+            .damage-type-bar
+            {
+                width: 130dp;
+                height: 5dp;
+                position: absolute;
+                top: 26dp;
+                left:50%;
+                transform: translateX(-50%);
+            }
+
+            .defence-type-bar
+            {
+                width: 130dp;
+                height: 5dp;
+                position: absolute;
+                top: 55dp;
+                left:50%;
+                transform: translateX(-50%);
+            }
+
+            #progress-horizontal-entity-health fill
+            {
+                padding: 7.5dp;
+            }
+
+            #progress-horizontal-entity-shield fill
+            {
+                padding: 7.5dp;
+            }
+
+            #entity-info-container
+            {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 100;
+
+            }
+
+            .health-bar-info-position
+            {
+                width: 90%;
+                left:5%;
+                height: 90%;
+                position: relative;
+                transform: translateY(-74dp);
+                font-family: Inria Sans;
+                text-align: center;
+                line-height: 2vh;
+                font-size: 2.0vh;
+                color: black;
+                justify-content: space-between;
+                z-index: 100;
+            }
+
+            #entity-level
+            {
+                color: #e8d44c;
+                font-size: 2.5vh;
+                font-effect: outline(1dp black);
+            }
+            .progress-bar-text
+            {
+                width: 335.25dp;
+                height: 36dp;
+                position: absolute;
+                top: 50.5dp;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 100;
+                display: block;
+                justify-content: center;
+                text-align: center;
+                font-size: 2.5vh;
+                overflow: hidden;
+            }
+
+            .progress-bar-text-start-text
+            {
+                width: 50dp;
+                height: 100%;
+                position: relative;
+                z-index: 100;
+                display: block;
+                text-align: center;
+                font-size: 2.5vh;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+
+            #entity-class,
+            #entity-name
+            {
+                font-size: 1.8vh;
+                z-index: 100;
+            }
+
+            #progress-horizontal-entity-shield
+            {
+                z-index: 50;
+                image-color: #0003c1;
+                opacity: 0.75;
+                transform: translateY(-37dp);
+                width: 100%;
+                height: 100%;
+                position: relative;
+                fill-image: EnemyHp;
+            }
+
+        </style>
+    </head>
+    <body class="no-pointer-events">
+    <div class = "progress-bar-text">
+        <div class = "progress-bar-text-start-text" id="text-start">
+        </div>
+    </div>
+
+    <div class="enemy-health-container" id="container">
+        <div class="damage-icon"></div>
+        <div class="progress-bar-container">
+            <progress id="progress-horizontal-entity-health"  direction="right" value="1.0"></progress>
+            <progress id="progress-horizontal-entity-shield"  direction="right" value="1.0"></progress>
+            <progress id="physical-damage-bar" class ="damage-type-bar"  direction="right" value="1.0"/>
+            <progress id="ice-damage-bar" class ="damage-type-bar"  direction="right" value="1.0"/>
+            <progress id="fire-damage-bar" class ="damage-type-bar"  direction="right" value="1.0"/>
+            <progress id="magic-damage-bar" class ="damage-type-bar"  direction="right" value="1.0"/>
+            <progress id="poison-damage-bar" class ="damage-type-bar"  direction="right" value="1.0"/>
+
+            <progress id="physical-defence-bar" class ="defence-type-bar"  direction="right" value="1.0"/>
+            <progress id="ice-defence-bar" class ="defence-type-bar"  direction="right" value="1.0"/>
+            <progress id="fire-defence-bar" class ="defence-type-bar"  direction="right" value="1.0"/>
+            <progress id="magic-defence-bar" class ="defence-type-bar"  direction="right" value="1.0"/>
+            <progress id="poison-defence-bar" class ="defence-type-bar"  direction="right" value="1.0"/>
+
+            <div class="health-bar-info-position" id="entity-info-container">
+                <div style="display: flex; flex-direction: row; justify-content: flex-start; gap: 2dp;  z-index: 100;">
+                    <span id="entity-name">EntityName</span>
+                    <span id="entity-class">EntityClass</span>
+                </div>
+
+                <span id="entity-level">EntityLevel</span>
+            </div>
+        </div>
+        <div class="armor-icon "></div>
+    </div>
+    </body>
+</rml>
