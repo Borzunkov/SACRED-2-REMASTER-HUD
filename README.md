@@ -29,14 +29,6 @@
 
 [DOWNLOAD TASK BAR ACTION SLOTS HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/TASK-BAR-ACTION-SLOTS/HUD.EXE)
 
-## <p align="center">CHARACTER DETAILS AND MINIMAP</p>
-
-<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/CDAM/1.png" />
-
-[DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.zip)
-
-[DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.EXE)
-
 ## <p align="center">ENTITY HEALTH</p>
 
 <img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/EH/1.png" />
@@ -44,6 +36,14 @@
 [DOWNLOAD ENTITY HEALTH HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/ENTITY-HEALTH/HUD.zip)
 
 [DOWNLOAD ENTITY HEALTH HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/ENTITY-HEALTH/HUD.EXE)
+
+## <p align="center">CHARACTER DETAILS AND MINIMAP</p>
+
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/CDAM/1.png" />
+
+[DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.zip)
+
+[DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.EXE](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.EXE)
 
 ## INSTALLATION
 <b>IF DOWNLOADED "HUD.ZIP", PATH FOR UNPACK:</b>
