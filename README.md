@@ -8,8 +8,8 @@
 
 ## <p align="center">TASK BAR CENTER</p>
 
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/1.png" /></p>
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBC/2.png" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TASK-BAR-CENTER/1.png" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TASK-BAR-CENTER/2.png" /></p>
 
 <p align="center"><b>SOME SLOTS NOT WORK YET!</b></a>
 
@@ -19,9 +19,9 @@
 
 ## <p align="center">TASK BAR ACTION SLOTS</p>
 
-<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/1.png" />
-<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/2.png" />
-<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TBAS/3.png" />
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TASK-BAR-ACTION-SLOTS/1.png" />
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TASK-BAR-ACTION-SLOTS/2.png" />
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/TASK-BAR-ACTION-SLOTS/3.png" />
 
 <p align="center"><b>SOME SLOTS NOT WORK YET!</b></a>
 
@@ -31,7 +31,7 @@
 
 ## <p align="center">ENTITY HEALTH</p>
 
-<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/EH/1.png" /></p>
+<p align="center"><img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/ENTITY-HEALTH/1.png" /></p>
 
 [DOWNLOAD ENTITY HEALTH HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/ENTITY-HEALTH/HUD.zip)
 
@@ -39,7 +39,7 @@
 
 ## <p align="center">CHARACTER DETAILS AND MINIMAP</p>
 
-<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/CDAM/1.png" />
+<img src="https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/blob/main/IMG/HUD/CHARACTER-DETAILS-AND-MINIMAP/1.png" />
 
 [DOWNLOAD CHARACTER DETAILS AND MINIMAP HUD.ZIP](https://github.com/Borzunkov/SACRED-2-REMASTER-HUD/releases/download/CHARACTER-DETAILS-AND-MINIMAP/HUD.zip)
 
