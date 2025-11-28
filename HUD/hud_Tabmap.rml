@@ -8,9 +8,9 @@
 
             #tabmap {
                 position: absolute;
-                width: 75%;
+                width: 60%;
                 //max-width: 1024px;
-                height: 75%;
+                height: 60%;
                 //max-height: 720px;
                 left: 50%;
                 top: 50%;
@@ -19,9 +19,9 @@
                 overflow: hidden;
                 decorator: map("tabmap");
                 border-style: solid;
-                border-width: 3px;
+                border-width: 1px;
                 border-color: #CEB549;
-                border-radius: 5px;
+                border-radius: 1px;
             }
 
         </style>
