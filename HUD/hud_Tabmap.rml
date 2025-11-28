@@ -1,0 +1,33 @@
+<rml>
+    <head>
+        <link type="text/template" href="../global/fullscreenMenu.rml"/>
+        <link type="text/rcss" href="../global/mainMenuHeroElements.rcss"/>
+        <link type="text/rcss" href="../HUD/hud_Spritesheet.rcss"/>
+        <title>hud_Tabmap</title>
+        <style>
+
+            #tabmap {
+                position: absolute;
+                width: 75%;
+                //max-width: 1024px;
+                height: 75%;
+                //max-height: 720px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                background-color: black;
+                overflow: hidden;
+                decorator: map("tabmap");
+                border-style: solid;
+                border-width: 3px;
+                border-color: #CEB549;
+                border-radius: 5px;
+            }
+
+        </style>
+    </head>
+    <body class="no-pointer-events">
+        <div id="tabmap">
+        </div>
+    </body>
+</rml>
